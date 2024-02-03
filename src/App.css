@@ -1,0 +1,257 @@
+/* .bg {
+background: #C4C4C4;
+width: 40%;
+color: white;
+z-index: 5;
+} */
+
+/* .Clip {
+  height: 500px;
+  width: 80%;
+  background: #C4C4C4;
+  clip-path: polygon(0 0, 70% 0, 45% 100%, 0% 100%);
+}
+
+.clippy {
+  height: 500px;
+  width: 100%;
+  background: black;
+clip-path: polygon(56% 0, 100% 0%, 100% 100%, 10% 100%);
+} */
+
+.Nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Form {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Aboutus {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Project {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Contact {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text1 {
+  background: linear-gradient(
+    to right,
+    #0093e9 20%,
+    #80d0c7 40%,
+    #ff4b1f 60%,
+    #1fddff 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+
+  animation: gradients 7s ease infinite;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+@keyframes gradients {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.wrap {
+  position: relative;
+}
+
+.border-gradient {
+  border-image: linear-gradient(to right, #0093e9, #00ccff);
+  border-image-slice: 1;
+}
+
+.nav1 {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-left: 0px;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+}
+
+.slide-in-left {
+  animation-name: slideInFromLeft;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.modal {
+  margin-top: 0px;
+}
+
+.card {
+  width: 190px;
+  height: 65px;
+  background: #020b11;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card h2 {
+  z-index: 1;
+  color: white;
+  font-size: 16px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 185px;
+  background-image: linear-gradient(180deg, #ff4b1f, #00ccff);
+  height: 60%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.3s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  background: #020b11;
+  inset: 5px;
+  border-radius: 15px;
+}
+
+.projects {
+  transition: all 500ms ease-in-out;
+}
+.projects:hover {
+  transform: scale(1.1);
+}
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #28096b;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: 0.5s;
+}
+
+input:checked + .slider {
+  background-color: #522ba7;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
+
+button {
+  /* padding: 0.8em 1.8em;
+  border: 2px solid #17c3b2; */
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  /* text-transform: uppercase; */
+  /* font-size: 16px; */
+  transition: 0.3s;
+  /* z-index: 1; */
+  /* font-family: inherit; */
+  color: white;
+}
+
+button::before {
+  content: "";
+  width: 0;
+  height: 475%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-image: linear-gradient(to right, #0093e9, #00ccff);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 105%;
+}
+
+button:hover {
+  color: white;
+  z-index: 1;
+}
