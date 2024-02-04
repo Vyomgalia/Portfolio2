@@ -24,6 +24,7 @@ function Technologies() {
       <div className="lg:flex pl-10 md:pl-20 lg:px-7 lg:justify-around grid grid-cols-3 md:gap-36 lg:gap-24 xl:gap-36 gap-8 p-5 lg:p-0 mt-10">
         <img src={HTML5} alt="" className="w-18 h-12" />
         <img src={Css} alt="" className="w-18 h-12" />
+        <img src={Node} alt="" className="w-18 h-12" />
         <img src={tailwind} alt="" className="w-[75px] h-10" />
         <img src={JS} alt="" className="w-18 h-14" />
         <img src={React1} alt="React" className="w-18 h-12" />

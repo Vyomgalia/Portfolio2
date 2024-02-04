@@ -35,7 +35,7 @@ function Contact() {
 
         <button className="py-[7px] px-[34px] lg:px-[50px]  border-2 border-gradient z-10">
           <a
-            href="https://github.com/Princessayomide53"
+            href="https://github.com/Vyomgalia"
             target="_blank"
             rel="noopener noreferrer"
             className="flex mt-1 gap-3 mr-7 lg:mr-0"
@@ -48,7 +48,7 @@ function Contact() {
 
         <button className="py-[7px] px-[37px] lg:px-11  border-2 border-gradient z-10">
           <a
-            href="https://www.linkedin.com/in/princess-ayomide-ogunnaike-235b25211"
+            href="https://www.linkedin.com/in/vyom-galia-004491265/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex mt-1 gap-3  mr-2 lg:mr-0"
@@ -60,7 +60,7 @@ function Contact() {
         <br />
 
         <button className="py-[7px] text-center px-[39px] lg:px-[51.5px] border-2 border-gradient z-10">
-          <a href="tel: 08076824974" className="flex mt-1 gap-3 mr-5 lg:mr-0">
+          <a href="9920784541" className="flex mt-1 gap-3 mr-5 lg:mr-0">
             <AiOutlinePhone className=" " size={30} />
             <p className="  text-lg">Phone</p>
           </a>

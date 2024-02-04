@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import "../App.css";
 import Nav from "./Nav";
 // import Bg from './Img/Bg.png'
-import Woman from "./Img/Woman.png";
+import Woman from "./Img/man.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typed from "react-typed";
@@ -29,7 +29,7 @@ function Header() {
             </h3>
 
             <h1 className="slide-in-left text1 lg:text-5xl pl-4 text-4xl font-bold leading-8 font-serif mt-10 pb-8 z-10 md:pl-16 lg:pl-0">
-              Princess Ayomide Ogunnaike
+              Vyom Galia
             </h1>
           </div>
           <Typed
@@ -44,9 +44,9 @@ function Header() {
             id="hash-link-about"
           >
             <p className="text-justify  lg:text-base text-sm md:text-base lg:mt-2 mt-1 lg:leading-8 leading-7 flex-wrap space-y-5 pr-5">
-              I'm Princess, a Frontend Developer based in Lagos, Nigeria. I have
+              I'm Vyom, a Web/Product Developer based in Mumbai. I have
               substantial <br />
-              knowledge of HTML, CSS, JavaScript React and Next. I am highly
+              knowledge of HTML, CSS, JavaScript, Pyhton, React and Next. I am highly
               motivated to expand
               <br /> my skills and i'm available to create solutions and one of
               a kind platforms for clients.
@@ -60,8 +60,8 @@ function Header() {
             id="hash-link-about"
           >
             <p className="text-justify lg:text-base text-sm md:text-base lg:mt-2 mt-1 leading-7  md:leading-9 flex-wrap md:space-y-14 pr-5">
-              A Frontend Developer based in Lagos, Nigeria. I have substantial
-              knowledge of HTML, CSS, JavaScript, React and Next. I am highly
+              A Web Developer based in Mumbai. I have substantial
+              knowledge of HTML, CSS, JavaScript, Python, React and Next. I am highly
               motivated to expand my skills and i'm available to create
               solutions and one of a kind platforms for clients
             </p>

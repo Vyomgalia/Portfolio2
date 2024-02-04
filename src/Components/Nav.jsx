@@ -20,7 +20,7 @@ function Nav() {
       <div className="relative Nav">
         <div className="bg-[#020b11] lg:flex justify-between hidden lg:fixed w-full z-10">
           <div className="flex justify-between p-3  pl-5">
-            <h2 className="text1 text-4xl font-bold ml-6">PA.</h2>
+            <h2 className="text1 text-4xl font-bold ml-6">VG.</h2>
           </div>
 
           <div className=" text-white text-base z-10 lg:block hidden pt-5">
@@ -61,7 +61,7 @@ function Nav() {
       <div className="lg:hidden block fixed z-50">
         <div className="flex justify-between bg-[#020b11] pt-2 pb-2 fixed w-full z-10 rounded-full border-2 border-slate-600 mt-2">
           <div className=" pl-7 pt-2">
-            <h2 className="text1 text-4xl font-bold ">PA.</h2>
+            <h2 className="text1 text-4xl font-bold ">VG.</h2>
           </div>
           {/* <div className="mt-[7px]">
             <label class="switch">
